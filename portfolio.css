@@ -419,6 +419,15 @@ section {
         opacity: 1;
     }
 }
+@media(max-width: 768px) {
+    .container1,
+    .heading1,
+    .Technical-bars {
+        text-align: left;
+        align-items: flex-start;
+        padding-left: 120px;
+    }
+}
 
 .skills {
   text-align: center;
